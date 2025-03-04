@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="Container">
+      <div class="leftside">
+        <h1 class="imagehead">Welcome to our <br>Community!</h1>
+        <img src="https://studybridge.searchosis.com/files/background_pic.svg" alt="sign-up image"/>
+         
+      </div>
+      <div class="line">
+
+      </div>
+      
+        <div class="rightside">
+            <form>
+                <h1>Create Account</h1>
+                <p>Sign up to your account below.</p><br><br>
+                <div class="names">
+                  <div>
+                    <label for="First-Name" type="text">First Name</label><br><br>
+                    <input type="text" id="fname" placeholder="|"><br><br>
+                  </div>
+                  <div>
+                    <label for="Last-Name">Last Name</label><br><br>
+                    <input type="text" id="lname" placeholder="|"><br><br>
+                  </div>
+                </div>
+                <label for="email">Email Address</label><br><br>
+                <input type="email" id="Email" placeholder="|"><br><br>
+                 <label for="password">Password</label><br><br>
+                 <div class="Pass">
+                 <input type="password" id="password" placeholder="|"><br><br>
+                 <button class="toggle" 
+                  onclick="togglePasswordVisibility()">
+                  <i id="toggleicon" class="fas fa-eye"></i>
+                 </button>
+                </div><br>
+                <label for="Confirmpassword">Confirm Password</label><br><br>
+                 <div class="Confirmpass">
+                  <input type="password" id="password" placeholder="|"><br><br>
+                  <button class="toggle" 
+                  onclick="togglePasswordVisibility()">
+                  <i id="toggleIcon" class="fas fa-eye"></i>
+                  </button>
+                </div>
+                <button type="submit" id="submit-button">Create Account</button><br><br>
+                <p>Already have an account?<a href="">Sign In</a></p>
+              
+                <hr>or<hr>
+                <br><br>
+                <div class="Icons">
+                   <img src="https://img.icons8.com/?size=512&id=17949&format=png" id="google">
+                
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgeKVtQ2lVep2QNflNFosfG2ojF-8qs6vyEQ&s" id="facebook">
+                
+                    <img src="https://pngimg.com/d/apple_logo_PNG19666.png" id="Apple">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+       
+    
+</body>
+</html>
